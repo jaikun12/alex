@@ -1,0 +1,121 @@
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+
+.main-nav{
+	height:130px;
+	padding:10px;
+	position:fixed;
+}
+
+.logo-container{
+	float:left;
+	height:120px;
+}
+
+.logo-container img{
+	height:120px;
+}
+
+.menu-bar{
+	height:120px;
+	display:table-cell;
+	vertical-align:middle;
+	/*border:solid black 1px;*/
+	margin-left:10px;
+}
+
+.menu-bar a{
+	text-decoration:none;
+	color:rgb(55,55,55);
+	border-bottom:solid rgba(55,55,55,0) 2px;
+	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+}
+
+.menu-bar a:hover{
+	border-bottom:solid #f199a2 2px;
+	color:#f199a2;
+}
+
+.menu-item{
+	margin:15px;
+	font-family:'Helvetica neue';
+
+}
+
+#slide-1{
+	display:table-cell;
+	vertical-align:middle;
+	width:100vw;
+	background:url('../images/CrissCross1.jpg');
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:right -100px center;
+	background-color:rgb(226,226,226);
+	height:100vh;
+	padding:70px;
+}
+
+.message{
+	float:left;
+	padding-bottom:50px;
+	padding-left:50px;
+}
+
+.message h1{
+	font-family:Baskerville;
+	font-weight:lighter;
+	font-size:3em;
+	color:#f199a2;
+}
+
+.message p i{
+	font-family:Baskerville;
+	font-weight:bold;
+}
+
+.message p{
+	font-family:'Helvetica neue';
+	font-weight:regular;
+}
+
+.message a{
+	margin-top:50px;
+}
+
+.sub-footer{
+	margin-top:50px;
+	font-size:0.8em;
+	max-width:60%;
+}
+
+.btn-main{
+	border:solid #f199a2 2px;
+	width:50%;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+	height:100px;
+	text-decoration:none;
+	color:rgb(55,55,55);
+	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+}
+
+.btn-main:hover{
+	background:#f199a2;
+}
+
+.divider-pink{
+	border-bottom:solid #f199a2 5px;
+	margin-top:30px;
+	margin-bottom:30px;
+	width:45%;
+}
