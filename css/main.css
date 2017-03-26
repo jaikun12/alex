@@ -48,7 +48,7 @@
 }
 
 #slide-1{
-	display:table-cell;
+	clear:both;
 	vertical-align:middle;
 	width:100vw;
 	background:url('../images/CrissCross1.jpg');
@@ -58,6 +58,21 @@
 	background-color:rgb(226,226,226);
 	height:100vh;
 	padding:70px;
+	padding-top:150px;
+}
+
+#slide-2{
+	clear:both;
+	vertical-align:middle;
+	width:100vw;
+	background:url('../images/bg_bar.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:right -30vw center;
+	background-color:rgb(226,226,226);
+	height:100vh;
+	padding:70px;
+	padding-top:150px;
 }
 
 .message{
@@ -81,6 +96,7 @@
 .message p{
 	font-family:'Helvetica neue';
 	font-weight:regular;
+	max-width:60%;
 }
 
 .message a{
