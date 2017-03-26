@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/main.css">
+		<meta name="viewport" content="width=device-width" />
+		<script>
+			 var slide1 = document.getElementById("day-1");
+			 var slide2 = document.getElementById("day-2");
+			 var slide3 = document.getElementById("day-3");
+
+
+			 function call_day1(){
+			 	document.getElementById("day-1").style.display = "block";
+			 	document.getElementById("day-2").style.display = "none";
+			 	document.getElementById("day-3").style.display = "none";
+			 	document.getElementById("day-1").style.visibility = "initial";
+
+			 }
+
+			 function call_day2(){
+			 	document.getElementById("day-1").style.display = "none";
+			 	document.getElementById("day-2").style.display = "block";
+			 	document.getElementById("day-3").style.display = "none";
+			 	document.getElementById("day-2").style.visibility = "inherit";
+			 }
+
+			 function call_day3(){
+			 	document.getElementById("day-1").style.display = "none";
+			 	document.getElementById("day-2").style.display = "none";
+			 	document.getElementById("day-3").style.display = "block";
+			 	document.getElementById("day-3").style.visibility = "inherit";
+			 }
+
+		</script>
+	</head>
+	<body>
+		<nav class="main-nav">
+			<div class="logo-container">
+				<a href="index.html"><img src="images/Logo6.png"></a>
+			</div>
+			<div class="menu-bar">
+				<a href="home.html"><span class="menu-item">HOME</span></a>
+				<a href="schedule.html" class="active"><span class="menu-item">SCHEDULE</span></a>
+				<a href="location.html"><span class="menu-item">LOCATION</span></a>
+				<a href="testimonials.html"><span class="menu-item">TESTIMONIALS</span></a>
+				<a href=""><span class="menu-item">REGISTER</span></a>
+				<a href=""><span class="menu-item">CONTACT</span></a>
+			</div>
+		</nav>
+		<div class="schedule-main">
+			<div class="tab">
+				<button onclick="call_day1();">Day 1</button>
+				<button onclick="call_day2();">Day 2</button>
+				<button onclick="call_day3();">Day 3</button>
+			</div>
+			<div id="day-1" class="sched-slide">
+				<div class="sched-msg">
+					<h1 style="font-weight:lighter;">LEARN FROM</h1>
+					<h1>MARY HELEN BOWERS</h1>
+					<br>
+					<p>Mary Helen Bowers is an american celebrity fitness guru, entrepreneur, and former New York City Ballet dancer originally from Charlotte, North Carolina.</p>
+				</div>
+				<img src="http://hbu.h-cdn.co/assets/15/10/1600x800/landscape_1425589955-hbx-mary-helen-bowers-studio-0315.jpg">
+			</div>
+			<div id="day-2" class="sched-slide">
+				<div class="sched-msg">
+					<h1 style="font-weight:lighter;">FREE TRIAL</h1>
+					<h1>ADULT BALLET CLASS</h1>
+					<br>
+					<p>Even if you haven't done any form of ballet training, this fitness class offers n easy entry into one of the best ays to get in shape.</p>
+					<br>
+					<p>Classes: 2:30pm - 3:30pm | 5:00pm - 6:00pm
+				</div>
+				<img src="images/adult_ballet.jpg">
+			</div>
+			<div id="day-3" class="sched-slide">
+				<div class="sched-msg">
+					<h1 style="font-weight:lighter;">WATCH THEM</h1>
+					<h1>PERFORM!</h1>
+					<br>
+					<p>Do not miss the chance to see these ballerinas dominate the stage!</p>
+				</div>
+				<img src="images/cover.jpg">
+			</div>
+		</div>
+
+		
+	</body>
+</html>
