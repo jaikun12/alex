@@ -65,11 +65,11 @@
 	clear:both;
 	vertical-align:middle;
 	width:100vw;
-	background:url('../images/bg_bar.jpg');
+	background:url('../images/bar_bg_2.JPG');
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:right -30vw center;
-	background-color:rgb(226,226,226);
+	background-color:#c3bfbe;
 	height:100vh;
 	padding:70px;
 	padding-top:150px;
