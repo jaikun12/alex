@@ -2,7 +2,12 @@
 	margin:0;
 	box-sizing:border-box;
 }
-
+body{
+	background: #ECE9E6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  	background-attachment:fixed;
+}
 .main-nav{
 	height:130px;
 	padding:10px;
@@ -51,11 +56,11 @@
 	clear:both;
 	vertical-align:middle;
 	width:100vw;
-	background:url('../images/CrissCross1.jpg');
+	background:url('../images/1.png');
 	background-size:contain;
 	background-repeat:no-repeat;
 	background-position:right -100px center;
-	background-color:rgb(226,226,226);
+	background-color:none;
 	height:100vh;
 	padding:70px;
 	padding-top:150px;
@@ -65,11 +70,25 @@
 	clear:both;
 	vertical-align:middle;
 	width:100vw;
-	background:url('../images/bar_bg_2.JPG');
+	background:url('../images/2.png');
 	background-size:cover;
 	background-repeat:no-repeat;
-	background-position:right -30vw center;
-	background-color:#c3bfbe;
+	background-position:right -10vw center;
+	background-color:none;
+	height:100vh;
+	padding:70px;
+	padding-top:150px;
+}
+
+#slide-3{
+	clear:both;
+	vertical-align:middle;
+	width:100vw;
+	background:url('../images/3.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:right -10vw center;
+	background-color:none;
 	height:100vh;
 	padding:70px;
 	padding-top:150px;
@@ -79,6 +98,7 @@
 	float:left;
 	padding-bottom:50px;
 	padding-left:50px;
+	max-width:40%;
 }
 
 .message h1{
@@ -96,7 +116,7 @@
 .message p{
 	font-family:'Helvetica neue';
 	font-weight:regular;
-	max-width:60%;
+	max-width:100%;
 }
 
 .message a{
@@ -134,4 +154,15 @@
 	margin-top:30px;
 	margin-bottom:30px;
 	width:45%;
+}
+
+.said-by{
+	float:right;
+	font-weight:bolder;
+}
+
+.said-by-position{
+	clear:both;
+	float:right;
+	font-weight:bolder;
 }
