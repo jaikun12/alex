@@ -1,0 +1,10 @@
+body{
+	background: #8ed1d9; /* fallback for old browsers */
+	
+}
+
+.menu-bar .active{
+	border-bottom:solid white 2px;
+	color:white;
+}
+

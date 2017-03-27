@@ -351,6 +351,166 @@ body{
 	line-height:1.5;
 }
 
+.register-main{
+	font-family:'Helvetica neue';
+	color:white;
+	padding:150px;
+	height:100vh;
+	width:80%;
+	/*border:solid black 1px;*/
+}
+
+.register-main h3{
+	font-family:'interstate';
+	font-weight:lighter;
+}
+
+.register-main input{
+	border:none;
+	background:#74bbc8;
+	color:white;
+	font-size:3vh;
+	width:100%;
+	margin-top:10px;
+	padding:5px;
+}
+
+.register-main textarea{
+	border:none;
+	background:#74bbc8;
+	color:white;
+	font-size:3vh;
+	width:100%;
+	margin-top:10px;
+	padding:5px;
+}
+
+.register-main label{
+	margin-top:10px;
+	float:left;
+}
+
+.choice input[type="checkbox"]{
+	position:relative;
+	background:none;
+}
+
+.choices{
+	float:right;
+	/*border:solid black 1px;*/
+	width:75%;
+}
+
+.register-main .choice{
+	margin:10px;
+	float:left;
+	width:45%;
+}
+
+.register-main form button{
+	float:right;
+}
+
+.btn-dark{
+	border:solid #172A4C 2px;
+	background:none;
+	padding:10px;
+	margin:20px;
+	font-size:3vh;
+	-o-transition:.2s;
+  	-ms-transition:.2s;
+  	-moz-transition:.2s;
+  	-webkit-transition:.2s;
+}
+
+.btn-dark:hover{
+	background:#172A4C;
+	color:white;
+
+}
+
+.contact-main{
+	font-family:'Helvetica neue';
+	color:white;
+	padding:150px;
+	height:100vh;
+	width:100%;
+	/*border:solid black 1px;*/
+}
+
+.contact-main h3{
+	font-family:'interstate';
+	font-weight:lighter;
+	width:70%;
+}
+
+.contact-main input{
+	border:none;
+	background:#74bbc8;
+	color:white;
+	font-size:3vh;
+	width:100%;
+	margin-top:10px;
+	padding:5px;
+}
+
+.contact-main textarea{
+	border:none;
+	background:#74bbc8;
+	color:white;
+	font-size:3vh;
+	width:100%;
+	margin-top:10px;
+	padding:5px;
+}f
+
+.contact-main label{
+	margin-top:10px;
+	float:left;
+}
+
+.contact-details{
+	padding-top:20px;
+	width:40%;
+	border:solid blac/*k*/ 1px;
+	float:left;
+}
+
+.contact-details p{
+	margin:10px;
+}
+
+.contact-details a{
+	color:black;
+	text-decoration:none;
+}
+
+.enquiry-form{
+	padding-top:10px;
+	float:right;
+	width:50%;
+	/*border:solid black 1px;*/
+}
+
+.enquiry-form button{
+	float:right;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+}
+
 
 
 
